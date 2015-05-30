@@ -1,48 +1,112 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <link rel="icon" type="image/png" href="/assets/img/small.png" />
 
-        <!-- Jekyll CSS -->
-        <link rel="stylesheet" href="/assets/css/syntax.css">
-        <link rel="stylesheet" href="/assets/css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<!-- Gumby CSS -->
-	<link rel="stylesheet" href="/assets/gumby/css/gumby.css">
-	<link rel="stylesheet" href="/assets/gumby/css/style.css">
+    <title>{{ page.title }} | Paly SJP</title>
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/foundation/css/foundation.css">
+    <link rel="stylesheet" href="/assets/foundation/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <script type="text/javascript" src="/assets/foundation/js/foundation.min.js"></script>
+    
+  </head>
+  <body>
+
+    <div class="site">
+      <div class="header">
+
+	<!-- top BAR -->
+	<nav class="top-bar hide-for-small">
+	  <ul class="title-area">
+	    <!-- Title Area -->
+	    <li class="name">
+	      <h1><a href="/">Paly SJP</a></h1>
+	    </li>
+	    <li class="divider"></li>
+	  </ul>
+	  
+          <!-- All tabs on right side  -->
+          <section class="top-bar-section">
+	    <ul class="right">
+	      
+	      <li class="name">
+		<a href="about.html">About Us</a>
+	      </li>
+	      
+	      <li class="name">
+		<a href="calendar.html">Calendar</a>
+	      </li>
+	      
+	      <li class="has-dropdown not-click"><a href="#">Cohorts</a>
+		<ul class="dropdown">
+		  <li><a href="/cohort/one.html">Cohort 1</a></li>
+		</ul>
+	      </li>	  
+	    </ul>
+	  </section>
+	</nav>
 	
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="/assets/css/custom.css">
-    </head>
-    <body>
+	  <!-- side BAR NOT WORKING
+	  <nav class="tab-bar show-for-small">
+	    <a class="left-off-canvas-toggle menu-icon">
+	      <span>
+		Paly&nbsp;SJP
+	      </span>
+	    </a>
+	  </nav>
+	  
+	  <aside class="left-off-canvas-menu">
+	    <ul class="off-canvas-list">
+	      <li>
+		<label>Menu</label>
+	      </li>
+	      <li>
+		<a href="/">Paly SJP</a>
+	      </li>
+	      <li>
+		<a href="about.html">About Us</a>
+	      </li>
+	      <li>
+	      <a href="about.html">Calendar</a>
+	      </li>
+	      <li>
+		<label>Cohorts</label>
+	      </li>
+	      <li style="background-color: #3B3B3B">
+		<a href="/cohort/one.html">Cohort 1</a>
+	      </li>
+	      <li>
+	    </ul>
+	  </aside> --->
+	  
+      </div>
+      
+      <div class="content">
+	{{ content }}
+      </div>
 
-        <div class="site">
-          <div class="header">
-	    <div class="row navbar" id="nav1" style="margin:0; max-width: 9001px">
-	      <a class="toggle" gumby-trigger="#nav1 > ul" href="#"><i class="icon-menu"></i></a>
-	      <h1 class="four columns logo">
-		<a href="#">
-		  <img src="/assets/img/logo/sjplogonormal.png" />
-		</a>
-	      </h1>
-	      <ul class="eight columns">
-		<li><a href="#">Cohort 1</a></li>
-		<li><a href="#">Cohort 2</a></li>
-		<li><a href="#">Cohort 3</a></li>
-		<li><a href="#">Contact Us</a></li>
-	      </ul>
-	    </div>
+      <div class="footer">
+	<div class="row">
+	  <div class="large-12 columns">
+	    <br />
+	    <h6 style="color:#ffffff">Keep in touch!</h6>
+	    <a href="https://twitter.com/palysocjustice" target="_blank">
+	      <img src="/assets/img/logo/twitter.png" class="logo" /></a>
+	    <a href="https://www.facebook.com/pages/Paly-Social-Justice-Pathway/1481478495402897" target="_blank">
+	      <img src="/assets/img/logo/facebook.png" class="logo" /></a>
+	    <a href="http://palysocialjustice.blogspot.com/" target="_blank">
+	      <img src="/assets/img/logo/blog.png" class="logo" /></a>
 	  </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <h3>I'm a dumb footer</h
-          </div>
-        </div>
-
-    </body>
+	</div>
+      </div>
+    </div>
+  </body>
 </html>

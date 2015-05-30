@@ -1,0 +1,4 @@
+name: Paly SJP
+markdown: redcarpet
+pygments: true
+relative_permalinks: true
