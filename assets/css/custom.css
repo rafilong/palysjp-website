@@ -20,6 +20,11 @@ body {
     background-color:#ffffff;
     padding:20px; }
 
+.logo {
+    margin: 4px;
+    width: 28px;
+    height: 28px; }
+
 /* Header */
 .header {
     color:#f9f9f9;
