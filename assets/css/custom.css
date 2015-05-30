@@ -26,6 +26,9 @@ body {
     width: 28px;
     height: 28px; }
 
+.footer a:focus {
+    color: transparent; } 
+
 /* Header */
 .header {
     color:#f9f9f9;
