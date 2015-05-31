@@ -36,6 +36,9 @@ p {
     width: 28px;
     height: 28px; }
 
+a:visited {
+    color: #2ba6cb }
+
 /* Buttons */
 
 .button {
