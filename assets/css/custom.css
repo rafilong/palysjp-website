@@ -39,6 +39,16 @@ p {
 .footer a:focus {
     color: transparent; } 
 
+.button {
+    background-color: #e4e4e4;
+    color: #222222;
+    border: 0px; 
+    padding: 8px !important; }
+
+.button:hover {
+    background-color: #d4d4d4; 
+    color: #222222; }
+
 /* Header */
 .header {
     color:#f9f9f9;
