@@ -32,9 +32,6 @@ body {
 .footer a:focus {
     color: transparent; } 
 
-iframe {
-    text-align: center; }
-
 /* Header */
 .header {
     color:#f9f9f9;
