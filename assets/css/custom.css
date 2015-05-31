@@ -44,6 +44,9 @@ p {
     border: 0px; 
     padding: 8px !important; }
 
+.button:visited {
+    color:  #222222; }
+
 .button:hover {
     background-color: #d4d4d4; 
     color: #222222; }
