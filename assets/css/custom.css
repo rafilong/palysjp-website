@@ -11,6 +11,10 @@ body {
     padding: 0;
     background-color:#222222; }
 
+p {
+    color: #757575;
+    font-size: 15px !important; }
+
 .site {
     width: 100%;
     margin-top: 0;
