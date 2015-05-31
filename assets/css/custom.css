@@ -36,8 +36,7 @@ p {
     width: 28px;
     height: 28px; }
 
-.footer a:focus {
-    color: transparent; } 
+/* Buttons */
 
 .button {
     background-color: #e4e4e4;
@@ -98,3 +97,7 @@ p {
     text-align:center;
     margin-top: 0px !important;
     border-top: 2px solid #eee !important; }
+
+.footer a:focus {
+    color: transparent; } 
+
