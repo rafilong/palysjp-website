@@ -43,8 +43,6 @@ p {
 a:visited {
     color: #2ba6cb }
 
-
-
 /* Buttons */
 
 .button {
@@ -101,6 +99,9 @@ a:visited {
 /* Side Nav */
 .side-nav li a {
     color: #398f4e; }
+
+.side-nav li {
+    font-size: 14px; }
 
 /* Footer */
 
