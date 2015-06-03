@@ -41,7 +41,10 @@ p {
     height: 28px; }
 
 a:visited {
-    color: #2ba6cb }
+    color: #2ba6cb; }
+
+.italic {
+    font-style: italic; }
 
 /* Buttons */
 
