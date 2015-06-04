@@ -47,6 +47,7 @@ a:visited {
     font-style: italic; }
 
 .caption {
+    font-size: 100% !important;
     text-align: center; }
 
 /* Buttons */
