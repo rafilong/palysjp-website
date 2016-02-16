@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="/assets/foundation/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/custom.css">
 
+    <script type="text/javascript" src="/assets/foundation/js/custom.modernizr.js"></script>    
+    
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">    
+
   </head>
   <body>
 
     <div class="site">
 
-      <div class="off-canvas-wrap">
+      <div class="off-canvas-wrap" data-offcanvas>
 	<div class="inner-wrap">
 	  
 	  <div class="header">
@@ -55,42 +58,41 @@
 		  </li>	  
 		</ul>
 	      </section>
-	    </nav>
-	    
-	    <!-- Side Bar
-	    <nav class="tab-bar">
-	      <a class="left-off-canvas-toggle menu-icon" href="#">
-		<span>
-		  Paly&nbsp;SJP
-		</span>
-	      </a>
-	    </nav>
-	    
-	    <aside class="left-off-canvas-menu">
-	      <ul class="off-canvas-list">
-		<li>
-		  <label>Menu</label>
-		</li>
-		<li>
-		  <a href="/">Paly SJP</a>
-		</li>
-		<li>
-		  <a href="about.html">About Us</a>
-		</li>
-		<li>
-		  <a href="about.html">Calendar</a>
-		</li>
-		<li>
-		  <label>Cohorts</label>
-		</li>
-		<li style="background-color: #3B3B3B">
-		  <a href="/cohort/one.html">Cohort 1</a>
-		</li>
-	      </ul>
-	    </aside> -->
-	    
+	    </nav>	    
 	  </div>
 	  
+	  <!-- Side bar -->
+	  <nav class="tab-bar show-for-small">
+	    <a class="left-off-canvas-toggle menu-icon" href="#">
+	      <span>
+		Paly&nbsp;SJP
+	      </span>
+	    </a>
+	  </nav>
+	  
+	  <aside class="left-off-canvas-menu">
+	    <ul class="off-canvas-list">
+	      <li>
+		<label>Menu</label>
+	      </li>
+	      <li>
+		<a href="/">Paly SJP</a>
+	      </li>
+	      <li>
+		  <a href="about.html">About Us</a>
+	      </li>
+	      <li>
+		<a href="about.html">Calendar</a>
+	      </li>
+	      <li>
+		<label>Cohorts</label>
+	      </li>
+	      <li style="background-color: #3B3B3B">
+		<a href="/cohort/one.html">Cohort 1</a>
+	      </li>
+	    </ul>
+	  </aside>
+
 	  <div class="content">
 	    {{ content }}
 	  </div>
@@ -110,15 +112,18 @@
 	  </div>
 	</div>
       </div>
+      
+      <script type="text/javascript" src="/assets/foundation/js/vendor/jquery.js"></script>
+      <script type="text/javascript" src="/assets/foundation/js/foundation.min.js"></script>
+      <script type="text/javascript" src="/assets/foundation/js/foundation/foundation.clearing.js"></script>
+      <script type="text/javascript" src="/assets/foundation/js/foundation/foundation.offcanvas.js"></script>
+      <script type="text/javascript" src="/assets/js/custom.js"></script>
+      
+
     </div>
+      <script type="text/javascript">
+	$(document).foundation();
+      </script>
 
-    <script src="/assets/foundation/js/vendor/modernizr.js"></script>
-    <script src="/assets/foundation/js/vendor/jquery.js"></script>
-    <script src="/assets/foundation/js/foundation.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).foundation();
-    </script>
-    
   </body>
 </html>
