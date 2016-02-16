@@ -118,10 +118,10 @@ table tr td {
     color: #222222; }
 
 .left-off-canvas-toggle span {
+    font-family: 'Source Sans Pro', sans-serif;
     color: #222222;
     padding: 10px;
-    font-size: 15px;
-    font-weight: bold; }
+    font-size: 17px; }
 
 /* aside.left-off-canvas-menu {
     background-color: #f9f9f9;
