@@ -111,8 +111,29 @@ table tr td {
     border-color: #222222 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); }
 
 /* Side Nav */
-.side-nav li a {
-    color: #398f4e; }
+.tab-bar {
+    background-color: #f9f9f9; }
+
+.tab-bar .menu-icon {
+    color: #222222; }
+
+.left-off-canvas-toggle span {
+    color: #222222;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold; }
+
+/* aside.left-off-canvas-menu {
+    background-color: #f9f9f9;
+
+ul.off-canvas-list li label {
+    background-color: #f9f9f9;
+    color: #222222; }
+
+ul.off-canvas-list li a {
+    background-color: #f9f9f9;
+    color: #222222; 
+    font-size: 14px; } */
 
 .side-nav li {
     font-size: 14px; }
